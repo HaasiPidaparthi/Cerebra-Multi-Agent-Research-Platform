@@ -1,0 +1,12 @@
+# Conda
+.conda/
+.env/
+__pycache__/
+*.pyc
+
+# Outputs
+out/
+traces/
+
+# OS
+.DS_Store
