@@ -12,3 +12,9 @@ dependencies = [
   "langchain-ollama>=1.0.1",
   "langchain-openai>=1.1.10",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
