@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: deterministic-multi-agent-engine
+Version: 0.1.0
+Summary: Cost-aware research + synthesis multi-agent workflow engine
+Requires-Python: >=3.11
+Requires-Dist: langchain>=1.2.10
+Requires-Dist: langchain-ollama>=1.0.1
+Requires-Dist: langchain-openai>=1.1.10

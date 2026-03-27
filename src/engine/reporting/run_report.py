@@ -163,11 +163,6 @@ def build_markdown_report(
 
 ---
 
-## Run Metrics
-{chr(10).join(metric_lines)}
-
----
-
 ## Plan
 
 ### Subquestions
