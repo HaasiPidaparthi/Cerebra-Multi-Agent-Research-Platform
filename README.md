@@ -1,18 +1,17 @@
-# Deterministic Multi-Agent Workflow Orchestrator
+# Cerebra: Enterprise Multi-Agent Research Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![LangChain](https://img.shields.io/badge/LangChain-1.2+-orange.svg)](https://www.langchain.com/)
 
-A sophisticated, tool-first, budget-aware runtime engine for orchestrating deterministic multi-agent workflows. This project demonstrates advanced AI engineering principles through a coordinated team of specialized agents that research, analyze, and verify complex business questions while maintaining strict cost and time constraints.
+A sophisticated, tool-first, budget-aware runtime engine for orchestrating multi-agent workflows. This project demonstrates advanced AI engineering principles through a coordinated team of specialized agents that research, analyze, and verify complex business questions while maintaining strict cost and time constraints.
 
 ## 🚀 Overview
 
-The Deterministic Multi-Agent Workflow Orchestrator is designed to automate complex research and decision-making processes using a collaborative AI agent architecture. By leveraging specialized agents (Planner, Researcher, Synthesizer, and Verifier), the system provides reliable, cost-effective solutions to business intelligence questions with full traceability and evaluation metrics.
+The project is designed to automate complex research and decision-making processes using a collaborative AI agent architecture. By leveraging specialized agents (Planner, Researcher, Synthesizer, and Verifier), the system provides reliable, cost-effective solutions to business intelligence questions with full traceability and evaluation metrics.
 
 ### Key Capabilities
 - **Multi-Agent Architecture**: Specialized agents for planning, research, synthesis, and verification
 - **RAG Integration**: Vector database search before web search for internal knowledge bases
-- **Deterministic Workflows**: Ensures reproducible results through structured agent interactions
 - **Cost Awareness**: Real-time cost tracking and enforcement for LLM API calls
 - **Tool Integration**: Web search and content fetching capabilities for data-driven insights
 - **Comprehensive Reporting**: Detailed execution reports with metrics and event logs
@@ -31,7 +30,7 @@ The system follows a modular, event-driven architecture built on LangChain and m
 - **Verifier Agent**: Validates findings against reliability thresholds
 
 #### Workflow Engine
-- **Graph-Based Execution**: Directed acyclic graph (DAG) for deterministic flow control
+- **Graph-Based Execution**: Directed acyclic graph (DAG) for flow control
 - **Loop Controller**: Manages iteration logic with retry policies and convergence checks
 - **State Management**: Persistent state tracking across workflow executions
 
@@ -125,7 +124,7 @@ This demonstrates semantic search across the vector database with relevance scor
 ## 📁 Project Structure
 
 ```
-deterministic-multi-agent-engine/
+enterprise-multi-agent-engine/
 ├── src/
 │   ├── engine/
 │   │    ├── agents/                # Specialized AI agents
@@ -178,8 +177,8 @@ deterministic-multi-agent-engine/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/deterministic-multi-agent-workflow-orchestrator.git
-   cd deterministic-multi-agent-workflow-orchestrator
+   git clone https://github.com/yourusername/cerebra-enterprise-multi-agent-research-platform.git
+   cd cerebra-enterprise-multi-agent-research-platform
    ```
 
 2. **Create and activate the Conda environment:**
