@@ -1,4 +1,4 @@
-# Cerebra: Enterprise Multi-Agent Research Platform
+# Cerebra: Multi-Agent Research Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![LangChain](https://img.shields.io/badge/LangChain-1.2+-orange.svg)](https://www.langchain.com/)
